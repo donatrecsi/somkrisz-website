@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+
+body {
+	background-image: url("img/lumber-1246545_1920.jpg");
+	background-position: center;
+	background-attachment: scroll;
+
+	font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+
+.home-text {
+	padding-top: 60px;
+}
+
+.main {
+	padding-top: 20px;
+	height: auto;
+	background-color: #dbddf1;
+}
+
+.bck-btn {
+	background-color: #dbddf1;
+	width: 100vw;
+}
+
+/* ------ Gallery ---------*/
+
+img{
+	max-width: 100%;
+}
+.gallery{
+	background-color: #dbddf1;
+	padding: 80px 0;
+}
+.gallery img{
+	background-color: #ffffff;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
